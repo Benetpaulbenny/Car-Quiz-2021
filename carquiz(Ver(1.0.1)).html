@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Quiz 2021</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="end-primarypage_stylsht(carquiz2021(Ver(1_0_1))).css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="script_JS_carquiz2021(Ver(1_0_1)).js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+</head>
+<body oncontextmenu="return true;">
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle(300);
+        }, 3000);
+    </script>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <div class="maincontainer" id="maincontainer">
+        <div class="heading" id="heding">
+            <h1 id="head">Car Quiz</h1>
+            <div class="scre">
+                <p id="ttl"></p>
+            </div>
+        </div>   
+
+        <!------------------AOS animation script(enabled)----------------->
+        
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    /*AOS.init({
+      mirror: true
+    });*/
+</script>
+    <div class="qa">
+    <div class="q1">
+    <h1>1. Which is the only SUV produced by Rolls Royce?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q1" id="1" ><label class="lbl-radio" for="1">Phantom</label> 
+    <input type="radio" value="lbl-radio" name="q1" id="2"><label class="lbl-radio" for="2">Ghost</label> 
+    <input type="radio" value="lbl-radio" name="q1" id="correct1"><label class="lbl-radio" for="correct1">Cullinan</label> 
+    <input type="radio" value="lbl-radio" name="q1" id="3"><label class="lbl-radio" for="3">Dawn</label> 
+</div>
+    <p id="cans1" style="color: rgb(8, 206, 8);"></p>
+    <p id="ans1" style="color: red;"></p>
+
+    <!--ans.Cullinan --> 
+</div>
+
+<div data-aos="fade-up" data-aos-duration="500"  class="q2">
+    
+    <h1>2. Which car was titled as the World Car of the year 2021?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q2" id="4" ><label class="lbl-radio" for="4">Tiguan</label>
+    <input type="radio" value="lbl-radio" name="q2" id="5"><label class="lbl-radio" for="5">Taigun</label>
+    <input type="radio" value="lbl-radio" name="q2" id="6"><label class="lbl-radio" for="6">ID.3</label>
+    <input type="radio" value="lbl-radio" name="q2" id="correct2" ><label class="lbl-radio" for="correct2">ID.4</label>
+</div>
+<p id="cans2" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans2" style="color: red;"></p>
+
+     <!--ans.ID.4 --> 
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q3">
+
+    <h1>3. What is the another name for Ford Endeavour?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q3" id="7"><label class="lbl-radio" for="7">Br onco</label>
+    <input type="radio" value="lbl-radio" name="q3" id="correct3"><label class="lbl-radio" for="correct3">Everest</label>
+    <input type="radio" value="lbl-radio" name="q3" id="8"><label class="lbl-radio" for="8">Durango</label>
+    <input type="radio" value="lbl-radio" name="q3" id="9"><label class="lbl-radio" for="9">Dodge</label>
+</div>
+<p id="cans3" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans3" style="color: red;"></p>
+
+     <!--ans.Everest --> 
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q4">
+
+    <h1>4. What is the meaning of Volkswagen?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q4" id="correct4"><label class="lbl-radio" for="correct4">People's car</label> 
+    <input type="radio" value="lbl-radio" name="q4" id="10"><label class="lbl-radio" for="10">Car everywhere</label>
+    <input type="radio" value="lbl-radio" name="q4" id="11"><label class="lbl-radio" for="11">Never ends</label>
+    <input type="radio" value="lbl-radio" name="q4" id="12"><label class="lbl-radio" for="12">Comfort unlimited</label> 
+</div>
+<p id="cans4" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans4" style="color: red;"></p> 
+
+     <!--ans.People's car --> 
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q5">
+    
+    <h1>5. What does blue and white colour of BMW logo represent?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q5" id="13"><label class="lbl-radio" for="13">Sky and land</label>
+    <input type="radio" value="lbl-radio" name="q5" id="correct5"><label class="lbl-radio" for="correct5">Bavarian flag</label> 
+    <input type="radio" value="lbl-radio" name="q5" id="14"><label class="lbl-radio" for="14">Happiness and Peace</label>
+    <input type="radio" value="lbl-radio" name="q5" id="15"><label class="lbl-radio" for="15">Race flag</label>
+</div>
+<p id="cans5" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans5" style="color: red;"></p>
+
+     <!--ans.Bavarian Flag --> 
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q6">
+    
+    <h1>6. Which car was titled as the urban car of the year 2021?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q6" id="correct6"><label class="lbl-radio" for="correct6">Honda E</label> 
+    <input type="radio" value="lbl-radio" name="q6" id="16"><label class="lbl-radio" for="16">Honda Civic</label>
+    <input type="radio" value="lbl-radio" name="q6" id="17"><label class="lbl-radio" for="17">Volkswagen Beetle</label>    
+    <input type="radio" value="lbl-radio" name="q6" id="18"><label class="lbl-radio" for="18">Tata Tiago</label>
+</div>
+<p id="cans6" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans6" style="color: red;"></p>
+
+     <!--ans.Honda E --> 
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q7">
+    
+    <h1>7. Which state of India has the manufacturing plant of Kia India?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q7" id="19"><label class="lbl-radio" for="19">Uttar Pradesh</label>    
+    <input type="radio" value="lbl-radio" name="q7" id="20"><label class="lbl-radio" for="20">Rajasthan</label>    
+    <input type="radio" value="lbl-radio" name="q7" id="correct7"><label class="lbl-radio" for="correct7">Andhra Pradesh</label>     
+    <input type="radio" value="lbl-radio" name="q7" id="21"><label class="lbl-radio" for="21">Tamil Nadu</label> 
+</div>
+<p id="cans7" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans7" style="color: red;"></p>
+
+     <!--ans.Andhra Pradesh -->
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q8">
+    
+    <h1>8. What was the Indian market share of Maruti Suzuki in April 2021?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q8" id="22"><label class="lbl-radio" for="22">52%</label>    
+    <input type="radio" value="lbl-radio" name="q8" id="23"><label class="lbl-radio" for="23">28%</label>    
+    <input type="radio" value="lbl-radio" name="q8" id="24"><label class="lbl-radio" for="24">65%</label>    
+    <input type="radio" value="lbl-radio" name="q8" id="correct8"><label class="lbl-radio" for="correct8">48%</label> 
+</div>
+<p id="cans8" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans8" style="color: red;"></p>
+
+     <!--ans.48% -->
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q9">
+
+    <h1>9. When did KIA launch it's new logo?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q9" id="correct9"><label class="lbl-radio" for="correct9">April 2021</label> 
+    <input type="radio" value="lbl-radio" name="q9" id="25"><label class="lbl-radio" for="25">March 2021</label>
+    <input type="radio" value="lbl-radio" name="q9" id="26"><label class="lbl-radio" for="26">January 2021</label>
+    <input type="radio" value="lbl-radio" name="q9" id="27"><label class="lbl-radio" for="27">None of the above</label>
+</div>
+<p id="cans9" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans9" style="color: red;"></p>
+
+     <!--ans.April2021 -->
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q10">
+
+    <h1>10. What is the name of the sub brand of Mercedes Benz?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q10" id="28"><label class="lbl-radio" for="28">Falcon</label>
+    <input type="radio" value="lbl-radio" name="q10" id="correct10"><label class="lbl-radio" for="correct10">EQ</label> 
+    <input type="radio" value="lbl-radio" name="q10" id="29"><label class="lbl-radio" for="29">T-class</label>
+    <input type="radio" value="lbl-radio" name="q10" id="30"><label class="lbl-radio" for="30">Merc</label>
+</div>
+<p id="cans10" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans10" style="color: red;"></p>
+
+     <!--ans.EQ -->
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q11">
+
+    <h1>11. Which of these is not an SUV?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q11" id="31"><label class="lbl-radio" for="31">Ford Endeavour</label>
+    <input type="radio" value="lbl-radio" name="q11" id="32"><label class="lbl-radio" for="32">Jeep Compass</label>
+    <input type="radio" value="lbl-radio" name="q11" id="correct11"><label class="lbl-radio" for="correct11">Toyota Innova Crysta</label> 
+    <input type="radio" value="lbl-radio" name="q11" id="33"><label class="lbl-radio" for="33">Kia Seltos</label> 
+</div>
+<p id="cans11" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans11" style="color: red;"></p>
+
+     <!--ans.Toyota Innova Crysta -->
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q12">
+
+    <h1>12. What is the name of the emblem of Rolls Royce?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q12" id="34"><label class="lbl-radio" for="34">Holy Bird</label>
+    <input type="radio" value="lbl-radio" name="q12" id="35"><label class="lbl-radio" for="35">Flying Spirit</label>
+    <input type="radio" value="lbl-radio" name="q12" id="36"><label class="lbl-radio" for="36">Spirit of Finix</label>
+    <input type="radio" value="lbl-radio" name="q12" id="correct12"><label class="lbl-radio" for="correct12">Spirit of Ecstacy</label> 
+</div>
+<p id="cans12" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans12" style="color: red;"></p>
+
+     <!--ans.Spirt of Ecstacy -->
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q13">
+
+    <h1>13. Which of these is the only electric car of MG?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q13" id="37"><label class="lbl-radio" for="37">MG Hector</label>
+    <input type="radio" value="lbl-radio" name="q13" id="38"><label class="lbl-radio" for="38">MG Hector+</label>
+    <input type="radio" value="lbl-radio" name="q13" id="correct13"><label class="lbl-radio" for="correct13">MG ZS EV</label> 
+    <input type="radio" value="lbl-radio" name="q13" id="39"><label class="lbl-radio" for="39">MG Gloster</label>
+</div>
+<p id="cans13" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans13" style="color: red;"></p> 
+
+    
+    <!--ans.MG ZS EV -->
+</div>
+    <div data-aos="fade-up" data-aos-duration="500" class="q14">
+
+    <h1>14. Which car got the award for World design of the year 2021?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q14" id="40"><label class="lbl-radio" for="40">Tata Harrier</label>
+    <input type="radio" value="lbl-radio" name="q14" id="correct14"><label class="lbl-radio" for="correct14">Land Rover Defender</label> 
+    <input type="radio" value="lbl-radio" name="q14" id="41"><label class="lbl-radio" for="41">Porsche 911</label>
+    <input type="radio" value="lbl-radio" name="q14" id="42"><label class="lbl-radio" for="42">Ford Bronco</label>
+</div>
+<p id="cans14" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans14" style="color: red;"></p>
+
+     <!--ans.Land Rover Defender -->
+    </div>
+     <div data-aos="fade-up" data-aos-duration="500" class="q15">
+
+    <h1>15. Which of these is the World performance car of the year 2021?</h1>
+    <div class="options">
+    <input type="radio" value="lbl-radio" name="q15" id="correct15"><label class="lbl-radio" for="correct15">Porsche 911 Turbo</label> 
+    <input type="radio" value="lbl-radio" name="q15" id="43"><label class="lbl-radio" for="43">Mclaren speedtail</label>
+    <input type="radio" value="lbl-radio" name="q15" id="44"><label class="lbl-radio" for="44">Bugatti Chiron</label>
+    <input type="radio" value="lbl-radio" name="q15" id="45"><label class="lbl-radio" for="45">Lamborghini Aventador</label>
+</div>
+<p id="cans15" style="color: rgb(0, 187, 0);"></p>
+    <p id="ans15" style="color: red;"></p>
+
+     <!--ans.Porsche 911 -->
+    </div>
+</div>
+
+                    <!---------------Question setion ends here!---------------->
+
+                    <!---------------Submit section starts here!--------------->
+
+<div class="sbtbtn">
+    <input type="submit" class="sbtbutn" value="Submit Quiz" onclick="sbt()" id="sbt"> 
+</div>
+</div>
+<div class="popup" id="popup">
+    <div class="total">
+        <p id="scr"><!--calculated score--></p>
+        <p class="txt" id="subtxt"></p>
+    </div>
+    <div class="upbtn">
+        <a href="#head"><button id="upbtn" onclick="toggle(); tpop()">Check your answers</button></a>
+    </div>
+</div>
+
+                    <!---------------Submit section ends here!--------------->
+
+
+                            <!---------Second Popup(disabled)---------->
+
+<!--<div class="popup2" id="popup2">
+    <form action="">
+    <div class="txts">
+    <p id="cikyn">Can I know your name?</p>
+    
+    
+        <input type="text" placeholder="Name" id="name" required >
+      </div>
+     
+      
+    <div class="bttns2">
+        <button type="submit" class="sbtbtn2" id="tru" onclick="toggle2()">Yeah!</button>
+        <button class="nothx" value="Nope!" id="fls" onclick="toggle2()">Nope!</button>
+    </div>
+    </form>
+    
+</div>-->
+
+                            <!---------end of second popup---------->
+
+                    <!---------typewrittere ffect loader(disabled)---------->
+
+<!--<div class="loader">
+    <p class="line anim-typewriter">Loading...</p>
+</div>-->
+
+               <!---------typewritter effect loader(script):(disabled)---------->
+<!--<script>
+    let loadwrapper = document.querySelector('.loader');
+    window.addEventListener("load",function(){
+        loadwrapper.style.display = 'none';
+    });
+</script>-->
+
+                        <!---------Third Popup:Start(enabled)---------->
+
+<div id="tpop" class="tpop">
+    <a id="tpop" href='mailto:joyaljsnk@gmail.com; bntpbny@gmail.com'>Any feedbacks?</a>
+</div> 
+
+                        <!---------Third Popup:End(enabled)---------->
+</body>
+</html>
