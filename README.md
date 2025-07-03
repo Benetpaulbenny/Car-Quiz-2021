@@ -2,6 +2,10 @@
 
 Welcome to the Car Quiz 2021! This website is designed to test your knowledge about automobiles and cars as of the year 2021. With a variety of questions covering different aspects of the automotive industry, you can challenge yourself and see how well you know about cars.
 
+## Live Website
+
+[![View Site](https://img.shields.io/badge/View%20Site-Click%20Here-blue?style=for-the-badge)]((https://benetpaulbenny.github.io/Car-Quiz-2021/))
+
 **Features**:
 Press the "Start Quiz" button to begin the quiz.
 There is no time limit for the quiz, so take your time and answer each question carefully.
